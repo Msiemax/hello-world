@@ -26,7 +26,9 @@ header
 main
 {
 	height: 100vh;
-	background-color: grey;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.5)), url(photo2.jpg); url(photo1.JPG);
+	background-size: cover;
+	background-position:center;
 	margin-top: 100vh;
 	position: relative;
 	z-index: 2;
@@ -67,7 +69,7 @@ header h3
 	height: 64px;
 	border: 3px solid white;
 	position: absolute;
-	bottom: 12%;
+	bottom: 15%;
 	left: 50%;
 	transform: translateX(-50%);
 	border-radius: 50%;
