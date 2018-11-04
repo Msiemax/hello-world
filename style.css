@@ -112,7 +112,7 @@ header h3
 	font-size: 1.5rem;
 	position: absolute;
 	top: 45%;
-	right: 22%;
+	right: 18%;
 	
 }
 .btn2
@@ -128,7 +128,7 @@ header h3
 	font-family: 'Oswald', sans-serif;
 	position: absolute;
 	top: 55%;
-	right: 22%;
+	right: 18%;
 	
 	
 }
@@ -138,4 +138,33 @@ header h3
 	0% {transform: translateY(-50px)}
 	50% {transform: translateY(0px)}
 	100% {transform: translateY(50px)}
+}
+
+@media (min-width: 480px)
+{
+	#arrow{position: absolute; bottom: 7%}
+	.btn1{top: 40%; right: 27%;}
+	.btn2{top: 55%; right: 27%;}
+}
+@media (min-width: 576px)
+{
+	h1 {font-size: 4rem}
+}
+
+
+@media (min-width: 768px) 
+{
+	h1 {font-size: 5rem}
+}
+
+
+@media (min-width: 992px) 
+{
+	h1 {font-size: 6rem}
+}
+
+
+@media (min-width: 1200px) 
+{
+	h1 {font-size: 7rem}
 }
