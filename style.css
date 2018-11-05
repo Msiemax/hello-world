@@ -189,8 +189,8 @@ video
 	.btn1{top: 44%; right: 22%;}
 	.btn2{top: 52%; right: 22%;}
 	header h1{font-size: 2.8rem;border-left: 1px solid white;padding-left:5px;}
-	header h3{border-left: 1px solid white;padding-left:5px;}
-	header hgroup{left: 27%;}
+	header h3{font-size: 1.45rem;border-left: 1px solid white;padding-left:5px;}
+	header hgroup{left: 25%;}
 @media (min-width: 480px)
 {
 	#arrow{position: absolute; bottom: 7%}
