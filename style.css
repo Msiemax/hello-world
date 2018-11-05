@@ -45,6 +45,44 @@ header nav
 	top: 4%;
 	font-size: 3rem;
 	color: white;
+	float: left;
+}
+.main-nav
+{
+	position: absolute;
+	float: right;
+	list-style: none;
+	top: 7%;
+	right: 6%;
+
+	
+}
+.main-nav li
+{
+	display: inline-block;
+	border: 1px solid white;
+
+}
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+	width: 100%;
+	margin: 5px;
+	
+}
+.main-nav li.active a
+{
+	
+	width: 100%;
+}
+.main-nav li a:hover
+{
+	
+	color: #BBB;
 }
 header hgroup
 {
@@ -113,7 +151,7 @@ video
 	font-size: 1.5rem;
 	position: absolute;
 	top: 45%;
-	right: 18%;
+	right: 1%;
 	
 }
 .btn2
@@ -129,7 +167,7 @@ video
 	font-family: 'Oswald', sans-serif;
 	position: absolute;
 	top: 55%;
-	right: 18%;
+	right: 1%;
 	
 	
 }
@@ -141,15 +179,15 @@ video
 	100% {transform: translateY(50px)}
 }
 @media only screen and (max-width:768px) {
-video {
-display: none
- }
+	video {display: none}
+	.main-nav{display: none;}
+	
 }
 @media (min-width: 320px)
 {
 	#arrow{position: absolute; bottom: 7%}
-	.btn1{top: 44%; right: 27%;}
-	.btn2{top: 56%; right: 27%;}
+	.btn1{top: 44%; right: 22%;}
+	.btn2{top: 56%; right: 22%;}
 	header h1{font-size: 2.8rem;border-left: 1px solid white;padding-left:5px;}
 	header h3{border-left: 1px solid white;padding-left:5px;}
 	header hgroup{left: 27%;}
@@ -165,6 +203,7 @@ display: none
 	header h1{font-size: 1.5rem;}
 	header h3{font-size: 1rem;}
 	header hgroup{left: 24%; top:6%;}
+	header nav{display: none;}
 	header h1{font-size: 4rem;}
 	header h1{font-size: 5rem;}
 	.btn1{top: 47%;right: 36%;}
@@ -178,6 +217,7 @@ display: none
 	header h1{font-size: 4.5rem;}
 	header h3{font-size: 2rem;}
 	header hgroup{left: 24%; top:6%;}
+	header nav{display: none;}
 	video{width: 360px; height: 240px; left: 5%;}
 	.btn1{width: 20rem;padding: 10px 30px;
 		top: 41%;right: 14%;font-size: 1.5rem;}
@@ -193,6 +233,7 @@ display: none
 	header h1{font-size: 5rem;}
 	header h3{font-size: 2.05rem;}
 	header hgroup{left: 30%; top: 5%;}
+	header nav{display: none;}
 	video{width: 480px; height: 300px;
 	right: 10%;box-shadow: 0 0 5px 5px white;}
 	.btn1{width: 20rem;padding: 10px 30px;
@@ -209,8 +250,10 @@ display: none
 	header h1{font-size: 6rem;}
 	header h3{font-size: 2.1rem;}
 	header hgroup{left: 17%; top:5%;}
+	header nav{display: none;}
 	video{width: 640px; height: 360px;
 	right: 10%;box-shadow: 0 0 5px 5px white;}
+	video:hover{box-shadow: 0 0 5px 5px #BBB;}
 	.btn1{width: 30rem;padding: 20px 40px;
 		top: 40%;right: 13%;font-size: 2rem;}
 	.btn2{width: 30rem;padding: 20px 40px;
