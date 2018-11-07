@@ -1,11 +1,15 @@
 @media only screen and (max-width:768px) {
 	video {display: none}
 	.main-nav{display: none;}
+	.foto{display: none;}
+	#
+
+
 	
 }
 @media (min-width: 320px)
 {
-	#arrow{position: absolute; bottom: 12%}
+	
 	.btn1{top: 44%; right: 22%;}
 	.btn2{top: 52%; right: 22%;}
 	header h1{font-size: 2.8rem;border-left: 1px solid white;padding-left:5px;}
