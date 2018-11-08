@@ -1,6 +1,5 @@
 @media only screen and (max-width:768px) {
-	.foto{visibility: hidden;}
-
+	main img{display: none;}
 	
 	
 	
@@ -88,7 +87,9 @@
 	.fa-facebook-f:hover{animation: shake 0.6s infinite;opacity: 0.2;}
 	.fa-instagram:hover{animation: shake 0.6s infinite;opacity: 0.2;}
 	.fa-envelope:hover{animation: shake 0.6s infinite;opacity: 0.2;}
-	
+	main .foto{float: left;height: 100%;width: 40%;text-align: center;}
+	main .omnie{border: solid red;float: left;width: 60%;height: 65%;text-align: justify;padding: 15px;}	
+	main .footer{padding: 15px;border: solid yellow;float: left;width: 60%;height: 35%;}
 	
 	
 	

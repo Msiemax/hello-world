@@ -8,23 +8,15 @@ main
 	position: relative;
 	z-index: 2;
 }
-.foto
-{
-	
-	float: left;
-	height: 100%;
-	width: 40%;
-	text-align: center;
-}
+
 .foto img
 {
 	margin-top: 10%;
 }
 .omnie
 {
-	border: solid red;
 	float: left;
-	width: 60%;
+	width: 100%;
 	height: 65%;
 	text-align: justify;
 	padding: 15px;
@@ -46,11 +38,10 @@ main
 .footer
 {
 	padding: 15px;
-	border: solid yellow;
+	border: solid 1px white;
 	float: left;
-	width: 60%;
+	width: 100%;
 	height: 35%;
-	z-index: 2;
 
 }
 
