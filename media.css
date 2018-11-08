@@ -97,8 +97,9 @@
 	.fa-instagram:hover{animation: shake 0.6s infinite;}
 	.fa-envelope:hover{animation: shake 0.6s infinite;}
 	main nav{height: 10%; float: right; font-family: 'Oswald', sans-serif}
-	main .foto{float: left;height: 100%;width: 40%;text-align: center; padding-top: 20px;font-size: 20px;}
+	main .foto{float: left;height: 100%;width: 40%;text-align: center; padding-top: 20px;}
 	main .omnie{float: left;width: 60%;height: 60%;text-align: justify; padding: 0px 15px 15px 15px; border-left: solid 1px white;}	
+	main .omnie p{font-size: 20px;}
 	main .footer{padding: 15px;float: left;width: 60%;height: 30%;}
 	
 	
