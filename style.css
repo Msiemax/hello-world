@@ -96,38 +96,26 @@ header h3
 {
 	width: 64px;
 	height: 64px;
-	border: 3px solid white;
+	border: 2px solid white;
 	position: absolute;
-	bottom: 15%;
+	bottom: 13%;
 	left: 50%;
 	transform: translateX(-50%);
 	border-radius: 50%;
 	font-size: 4rem;
 	text-align: center;
 	color: white;
-	
 	overflow: hidden;
 	transition: 1s
 }
-.fa-angle-down
+.fa-caret-down
 {
 	animation: arrow 1.6s infinite linear;
 	
 }
-#arrow:hover 
+.button
 {
-	font-size: 0px;
-	border: 3px solid black;
-	box-shadow: 0 0 5px 5px white;
-	cursor: pointer;
-}
 
-video
-{
-	float: left;
-	position:absolute;
-	bottom: 20%;
-	left: 10%;
 
 }
 .btn1

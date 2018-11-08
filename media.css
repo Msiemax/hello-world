@@ -1,10 +1,9 @@
 @media only screen and (max-width:768px) {
-	video {display: none}
-	.main-nav{display: none;}
-	.foto{display: none;}
-	#
+	.foto{visibility: hidden;}
 
-
+	
+	
+	
 	
 }
 @media (min-width: 320px)
@@ -15,20 +14,20 @@
 	header h1{font-size: 2.8rem;border-left: 1px solid white;padding-left:5px;}
 	header h3{font-size: 1.45rem;border-left: 1px solid white;padding-left:5px;}
 	header hgroup{left: 25%;}
+	
 @media (min-width: 480px)
 {
-	#arrow{position: absolute; bottom: 7%}
-	.btn1{top: 44%; right: 30%;}
-	.btn2{top: 56%; right: 30%;}
+	
+	.btn1{top: 40%; right: 30%;}
+	.btn2{top: 52%; right: 30%;}
 	header h1{font-size: 3.5rem;}
 }
 @media (min-width: 576px)
 {
+	
 	header h1{font-size: 1.5rem;}
 	header h3{font-size: 1rem;}
 	header hgroup{left: 24%; top:6%;}
-	header h1{font-size: 4rem;}
-	header h1{font-size: 5rem;}
 	.btn1{top: 40%;right: 35%;}
 	.btn2{top: 52%;right: 35%;}
 
@@ -37,11 +36,10 @@
 
 @media (min-width: 768px) 
 {
+
 	header h1{font-size: 4.5rem;}
 	header h3{font-size: 2rem;}
 	header hgroup{left: 24%; top:6%;}
-	header nav{display: none;}
-	video{width: 360px; height: 240px; left: 5%;}
 	.btn1{width: 20rem;padding: 10px 30px;
 		top: 41%;right: 14%;font-size: 1.5rem;}
 	.btn2{width: 20rem;padding: 10px 30px;
@@ -56,15 +54,19 @@
 	header h1{font-size: 5rem;}
 	header h3{font-size: 2.05rem;}
 	header hgroup{left: 30%; top: 5%;}
-	header nav{display: none;}
-	video{width: 480px; height: 300px;
-	right: 10%;box-shadow: 0 0 5px 5px white;}
 	.btn1{width: 20rem;padding: 10px 30px;
 		top: 44%;right: 16%;font-size: 1.5rem;}
 	.btn2{width: 20rem;padding: 10px 30px;
 		top: 56%;right: 16%;font-size: 1.5rem;}
 	.btn1:hover{border: 1px solid #BBB;color: #BBB;}
 	.btn2:hover{border: 1px solid #BBB;color: #BBB;}
+	#arrow{bottom: 7%;}
+	#arrow2{bottom: 7%;}
+	#arrow:hover {font-size: 0px;border: 3px solid black;box-shadow: 0 0 5px 5px white;cursor: pointer;}
+	#arrow2:hover {font-size: 0px;border: 3px solid black;box-shadow: 0 0 5px 5px white;cursor: pointer;}
+	.fa-facebook-f:hover{animation: shake 0.6s infinite;opacity: 0.2;}
+	.fa-instagram:hover{animation: shake 0.6s infinite;opacity: 0.2;}
+	.fa-envelope:hover{animation: shake 0.6s infinite;opacity: 0.2;}
 }
 
 
@@ -73,16 +75,19 @@
 	header h1{font-size: 6rem;}
 	header h3{font-size: 2.1rem;}
 	header hgroup{left: 17%; top:5%;}
-	header nav{display: none;}
-	video{width: 640px; height: 360px;
-	right: 10%;box-shadow: 0 0 5px 5px white;}
-	video:hover{box-shadow: 0 0 5px 5px #BBB;}
 	.btn1{width: 30rem;padding: 20px 40px;
 		top: 40%;right: 13%;font-size: 2rem;}
 	.btn2{width: 30rem;padding: 20px 40px;
 		top: 55%;right: 13%;font-size: 2rem;}
 	.btn1:hover{border: 1px solid #BBB;color: #BBB;}
 	.btn2:hover{border: 1px solid #BBB;color: #BBB;}
+	#arrow{bottom: 7%;}
+	main #arrow2{bottom: 7%;}
+	#arrow:hover {font-size: 0px;border: 3px solid black;box-shadow: 0 0 5px 5px white;cursor: pointer;}
+	#arrow2:hover {font-size: 0px;border: 3px solid black;box-shadow: 0 0 5px 5px white;cursor: pointer;}
+	.fa-facebook-f:hover{animation: shake 0.6s infinite;opacity: 0.2;}
+	.fa-instagram:hover{animation: shake 0.6s infinite;opacity: 0.2;}
+	.fa-envelope:hover{animation: shake 0.6s infinite;opacity: 0.2;}
 	
 	
 	
