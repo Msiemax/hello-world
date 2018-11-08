@@ -11,8 +11,9 @@ main
 
 .foto img
 {
-	margin-top: 10%;
+
 }
+
 .omnie
 {
 	float: left;
@@ -20,7 +21,7 @@ main
 	height: 65%;
 	text-align: justify;
 	padding: 15px;
-	border-left: solid 1px white;
+	
 }
 .omnie h1
 {

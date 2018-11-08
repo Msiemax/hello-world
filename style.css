@@ -29,51 +29,51 @@ header img
 	
 
 }
-header nav
+nav
 {
-	position: absolute;
-	right: 7%;
-	top: 4%;
-	font-size: 3rem;
-	color: white;
-	float: left;
+	padding: 20px;
 }
-.main-nav
+nav ul
 {
-	position: absolute;
 	float: right;
-	list-style: none;
-	top: 7%;
-	right: 6%;
-
-	
 }
-.main-nav li
+nav ul li
 {
 	display: inline-block;
-	border: 1px solid white;
+	float: left;
+}
+nav ul li a:hover
+{
 
+	background-size: 100% .1em;
 }
-.main-nav li a
+nav ul li a.left
 {
-	color: white;
+	background-position: left bottom;
+}
+nav ul li a.right
+{
+	background-position: right bottom;
+}
+nav ul li:not(first-child)
+{
+	margin-left: 48px;
+}
+nav ul li:not(last-child)
+{
+	margin-left: 24px;
+}
+nav ul li a
+{
+	display: inline-block;
+	outline: none;
+	color: #fff;
 	text-decoration: none;
-	padding: 20px;
-	font-family: "Roboto", sans-serif;
-	font-size: 17px;
-	width: 100%;
-	margin: 5px;
-	
-}
-.main-nav li.active a
-{
-	
-	width: 100%;
-}
-.main-nav li a:hover
-{
-	
-	color: #BBB;
+	font-size: 16px;
+	letter-spacing: 1.2px;
+	font-weight: 600;
+	background: linear-gradient(white, currentColor) bottom / 0 .1em no-repeat;
+	transition: 1s background-size;
 }
 header hgroup
 {
@@ -157,4 +157,8 @@ header h3
 	0% {transform: translateY(-50px)}
 	50% {transform: translateY(0px)}
 	100% {transform: translateY(50px)}
+}
+@keyframes example {
+    from {border-bottom: 3px solid blue; width:0;}
+    to {border-bottom: 3px solid blue; width:200px;}
 }
