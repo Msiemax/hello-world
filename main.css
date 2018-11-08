@@ -20,6 +20,7 @@ main
 	height: 65%;
 	text-align: justify;
 	padding: 15px;
+	border-left: solid 1px white;
 }
 .omnie h1
 {
@@ -46,7 +47,9 @@ main
 
 .ikonki
 {
-
+	position: absolute;
+	bottom: 7%;
+	left: 44.45%;
 	text-align: right;
 	font-size: 27px;
 	border-spacing: 2cm;
@@ -101,8 +104,7 @@ main
 	border: 2px solid white;
 	position: absolute;
 	bottom: 13%;
-	left: 50%;
-	transform: translateX(-50%);
+	
 	border-radius: 50%;
 	font-size: 4rem;
 	text-align: center;
