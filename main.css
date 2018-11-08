@@ -1,7 +1,7 @@
 main
 {
 	height: 100vh;
-	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.5)), url(photo2.jpg); url(photo1.JPG);
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.5)), url(photo3.jpg); url(photo1.JPG);
 	background-size: cover;
 	background-position:center;
 	margin-top: 100vh;
@@ -32,7 +32,6 @@ main
 {
 	font-family: 'Lato';
 	font-size: 20px;
-	margin-to: 6%;
 	color: white;
 }
 .footer
