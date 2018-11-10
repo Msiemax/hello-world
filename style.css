@@ -132,6 +132,7 @@ header h3
 	position: absolute;
 	top: 45%;
 	right: 1%;
+	overflow: hidden;
 	
 }
 .btn2
@@ -148,10 +149,18 @@ header h3
 	position: absolute;
 	top: 55%;
 	right: 1%;
+	overflow: hidden;
 	
 	
 }
 
+
+
+@keyframes sheen {
+  100% {
+    transform: rotateZ(60deg) translate(1em, -10em);
+  }
+}
 @keyframes arrow 
 {
 	0% {transform: translateY(-50px)}
