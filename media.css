@@ -1,7 +1,7 @@
 @media only screen and (max-width:767px) {
 	main img{display: none;}
 	main .ikonki{bottom: 13%;}
-	main nav{display: none;}
+	main nav{height: 10%; float: right; font-family: 'Oswald', sans-serif}
 	.slide_img{display: none;}
 	#i1, #i2, #i3{display: none;}
 	nav ul li a{font-size: 10px;}
