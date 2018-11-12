@@ -5,7 +5,10 @@
 	.slide_img{display: none;}
 	#i1, #i2, #i3{display: none;}
 	nav ul li a{font-size: 10px;}
-
+	main .omnie h1{font-size: 30px;}
+	main .omnie p{font-size: 11px;}
+	main .omnie{position: absolute; top: 5%;}
+	
 	
 	
 	
@@ -79,7 +82,7 @@
 	main .foto{float: left;height: 100%;width: 40%;text-align: center;}
 	main .omnie{float: left;width: 60%;height: 65%;text-align: justify;padding: 15px; border-left: solid 1px white;}
 	main .omnie p{font-size: 16px;}	
-	main .footer{padding: 15px;float: left;width: 60%;height: 35%;}
+	main .footer{padding: 15px;float: left;width: 60%;height: 35%; 	border-top: solid 1px white;}
 	.btn1::after{content: '';position: absolute;top: -50%;right: -50%;bottom: -50%;left: -50%;background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0));transform: rotateZ(60deg) translate(-5em, 10em);}
 	.btn1:hover::after, .btn1:focus::after{animation: sheen 1s forwards;}
 	.btn2::after{content: '';position: absolute;top: -50%;right: -50%;bottom: -50%;left: -50%;background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0));transform: rotateZ(60deg) translate(-5em, 10em);}
@@ -107,7 +110,7 @@
 	main .foto{float: left;height: 100%;width: 40%;text-align: center; padding-top: 20px;}
 	main .omnie{float: left;width: 60%;height: 60%;text-align: justify; padding: 0px 15px 15px 15px; border-left: solid 1px white;}	
 	main .omnie p{font-size: 20px;}
-	main .footer{padding: 15px;float: left;width: 60%;height: 30%;}
+	main .footer{padding: 15px;float: left;width: 60%;height: 30%; 	border-top: solid 1px white;}
 	.btn1::after{;background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0));transform: rotateZ(60deg) translate(-5em, 10em);}
 	.btn1:hover::after, .btn1:focus::after{animation: sheen 1s forwards;}
 	.btn2::after{background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0));transform: rotateZ(60deg) translate(-5em, 10em);}
