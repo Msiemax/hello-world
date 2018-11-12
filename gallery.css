@@ -67,3 +67,32 @@ section, #sliderm, .wrap, .slide-content
 	right: 0;
 	margin-right: 30px;
 }
+#arrow2
+{
+	width: 64px;
+	height: 64px;
+	border: 2px solid white;
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50%;
+	font-size: 4rem;
+	text-align: center;
+	color: white;
+	overflow: hidden;
+	transition: 1s
+
+
+}
+.fa-caret-up
+{
+	animation: arrow2 1.6s infinite linear;
+}
+
+@keyframes arrow2 
+{
+	0% {transform: translateY(50px)}
+	50% {transform: translateY(0px)}
+	100% {transform: translateY(-50px)}
+}
