@@ -1,3 +1,7 @@
+html
+{
+	scroll-behavior: smooth;
+}
 *
 {
 	margin: 0;
@@ -17,10 +21,8 @@ header
 	width: 100%;
 	background-size: cover;
 	background-position:center;
-	height: 100vh;
-	position: fixed;
 	font-family: 'Oswald', sans-serif;
-	z-inde: ;
+
 	
 }
 
@@ -31,18 +33,25 @@ header img
 	left: 7%;
 
 }
+
 nav
 {
 	padding: 20px;
+	transition: top 0.8s;
+	position: fixed;
+	z-index: 1;
+
+
 }
 nav ul
 {
-	float: right;
+	
 }
 nav ul li
 {
 	display: inline-block;
-	float: left;
+
+
 }
 nav ul li a:hover
 {
