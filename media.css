@@ -6,7 +6,7 @@
 	#i1, #i2, #i3{display: none;}
 	nav ul li a{font-size: 10px;}
 	main .omnie h1{font-size: 30px;}
-
+	nav{position: absolute; transition: none;}
 	main .omnie{position: absolute; top: 5%;}
 	
 	
