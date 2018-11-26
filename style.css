@@ -34,57 +34,12 @@ header img
 
 }
 
-nav
-{
-	padding: 20px;
-	transition: top 0.8s;
-	position: fixed;
-	z-index: 1;
 
-
-}
-nav ul
+nav img
 {
-	
-}
-nav ul li
-{
-	display: inline-block;
-
-
-}
-nav ul li a:hover
-{
-
-	background-size: 100% .1em;
-}
-nav ul li a.left
-{
-	background-position: left bottom;
-}
-nav ul li a.right
-{
-	background-position: right bottom;
-}
-nav ul li:not(first-child)
-{
-	margin-left: 48px;
-}
-nav ul li:not(last-child)
-{
-	margin-left: 24px;
-}
-nav ul li a
-{
-	display: inline-block;
-	outline: none;
-	color: #fff;
-	text-decoration: none;
-	font-size: 16px;
-	letter-spacing: 1.2px;
-	font-weight: 600;
-	background: linear-gradient(white, currentColor) bottom / 0 .1em no-repeat;
-	transition: 1s background-size;
+	position: absolute;
+	left: 2%;
+	top: 10%;
 }
 header hgroup
 {

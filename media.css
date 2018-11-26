@@ -1,13 +1,19 @@
 @media only screen and (max-width:767px) {
+	nav img{height: 40px; position: absolute;left: 4%;top: 2.5%;}
 	main img{display: none;}
 	main .ikonki{bottom: 13%;}
 	main nav{height: 10%; float: right; font-family: 'Oswald', sans-serif}
 	.slide_img{display: none;}
 	#i1, #i2, #i3{display: none;}
-	nav ul li a{font-size: 10px;}
+
 	main .omnie h1{font-size: 30px;}
 	html{scroll-behavior: auto;}
 	main .omnie{position: absolute; top: 5%;}
+	.menu {display: none; width: 100%; text-align: center;}
+	.menu a{display: block; margin: 0; color: #fff;text-decoration: none;font-size: 16px;letter-spacing: 1.2px;font-weight: 600; padding: 15px;}
+	nav .fa-bars{color: white; float: right; font-size: 25px; padding: 20px; cursor: pointer;}
+	nav #hamburger{display: none;}
+	nav #hamburger:checked + .menu{display: block;}
 	
 	
 	
@@ -57,6 +63,18 @@
 	main img{display: none;}
 	main nav{height: 10%; float: right; font-family: 'Oswald', sans-serif}
 	main .omnie p{font-size: 16px;}	
+	nav {padding: 25px;transition: top 0.8s;position: fixed;z-index: 1;width: 100%;margin-left: 0px;}
+	nav ul{float: right;}
+	nav ul li{display: inline-block;}
+	nav ul li a:hover{background-size: 100% .1em;}
+	nav ul li a.left{background-position: left bottom;}
+	nav ul li a.right{background-position: right bottom;}
+	nav ul li:not(first-child){margin-left: 48px;}
+	nav ul li:not(last-child){margin-left: 24px;}
+	nav ul li a{display: inline-block;outline: none;color: #fff;text-decoration: none;font-size: 16px;letter-spacing: 1.2px;font-weight: 600;
+				background: linear-gradient(white, currentColor) bottom / 0 .1em no-repeat;transition: 1s background-size;}
+	nav .fa-bars{display: none;}
+	nav #hamburger{display: none;}
 
 
 	
@@ -87,6 +105,20 @@
 	.btn1:hover::after, .btn1:focus::after{animation: sheen 1s forwards;}
 	.btn2::after{content: '';position: absolute;top: -50%;right: -50%;bottom: -50%;left: -50%;background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0));transform: rotateZ(60deg) translate(-5em, 10em);}
 	.btn2:hover::after, .btn2:focus::after{animation: sheen 1s forwards;}
+	nav {padding: 25px;transition: top 0.8s;position: fixed;z-index: 1;width: 100%;margin-left: 0px;}
+	nav ul{float: right;}
+	nav ul li{display: inline-block;}
+	nav ul li a:hover{background-size: 100% .1em;}
+	nav ul li a.left{background-position: left bottom;}
+	nav ul li a.right{background-position: right bottom;}
+	nav ul li:not(first-child){margin-left: 48px;}
+	nav ul li:not(last-child){margin-left: 24px;}
+	nav ul li a{display: inline-block;outline: none;color: #fff;text-decoration: none;font-size: 16px;letter-spacing: 1.2px;font-weight: 600;
+				background: linear-gradient(white, currentColor) bottom / 0 .1em no-repeat;transition: 1s background-size;}
+	nav .fa-bars{display: none;}
+	nav #hamburger{display: none;}
+
+}
 	
 
 
@@ -115,5 +147,18 @@
 	.btn1:hover::after, .btn1:focus::after{animation: sheen 1s forwards;}
 	.btn2::after{background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0));transform: rotateZ(60deg) translate(-5em, 10em);}
 	.btn2:hover::after, .btn2:focus::after{animation: sheen 1s forwards;}
+	nav{padding: 25px;transition: top 0.8s;position: fixed;z-index: 1;width: 100%;margin-left: 0px;}
+	nav ul{float: right;}
+	nav ul li{display: inline-block;}
+	nav ul li a:hover{background-size: 100% .1em;}
+	nav ul li a.left{background-position: left bottom;}
+	nav ul li a.right{background-position: right bottom;}
+	nav ul li:not(first-child){margin-left: 48px;}
+	nav ul li:not(last-child){margin-left: 24px;}
+	nav ul li a{display: inline-block;outline: none;color: #fff;text-decoration: none;font-size: 16px;letter-spacing: 1.2px;font-weight: 600;
+				background: linear-gradient(white, currentColor) bottom / 0 .1em no-repeat;transition: 1s background-size;}
+	nav .fa-bars{display: none;}
+	nav #hamburger{display: none;}
+
 }
 	
